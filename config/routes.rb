@@ -12,6 +12,18 @@ Rails.application.routes.draw do
   #root "welcome#index"
   
   
+  
+  def hello
+    render html: "hellllo, world"
+	
+	
+	#get '/hola/?'
+	# puts "holla munda"
+	end
+	
+  
+  
+  
 #  root 'users#index.erb'
 #  root "static_pages#home"
  # get "static_pages/home"
