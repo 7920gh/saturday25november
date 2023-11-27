@@ -6,4 +6,14 @@ class ApplicationController < ActionController::Base
   end
 
 
+  
+  
+  
+  #def hellorender html: "hellllo, world"#get '/hola/?'
+	# puts "holla munda"end
+  
+  
+  
+  
+  
 end

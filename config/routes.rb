@@ -8,18 +8,12 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
   #----------------------------------------------------------
-  #############root "application#hello"
-  #root "welcome#index"
+  #root "application#hello"
+  root "welcome#index"
   
   
   
-  def hello
-    render html: "hellllo, world"
-	
-	
-	#get '/hola/?'
-	# puts "holla munda"
-	end
+  
 	
   
   
