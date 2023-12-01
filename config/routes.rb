@@ -16,7 +16,8 @@ Rails.application.routes.draw do
   
   
 	
-  
+  get 'users' do
+render 'index.html.erb'
   
   
   root 'users#index.erb'
