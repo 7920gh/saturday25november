@@ -9,8 +9,8 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
   #----------------------------------------------------------
-  root "application#hello"
- # root "welcome#index"
+  #root "application#hello"
+ #root "welcome#index"
   
   
   
@@ -19,7 +19,7 @@ Rails.application.routes.draw do
   
   
   
-#  root 'users#index.erb'
+  root 'users#index.erb'
 #  root "static_pages#home"
  # get "static_pages/home"
  # get "static_pages/help"
