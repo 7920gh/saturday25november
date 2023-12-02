@@ -13,7 +13,7 @@ Rails.application.routes.draw do
  # root "users#index"   # //does not work
   root "welcome#index"  # // this one works
 
-GET /users
+GET "/users"
 
 
 
