@@ -16,11 +16,11 @@ Rails.application.routes.draw do
   
   
 	
-  get 'users' do
-render 'index.html.erb'
+  get '/users', to: 'users#index', as: 'users'
+#render 'app/views/index'
   
   
-  root 'users#index.erb'
+  #root 'users#index.erb'
 #  root "static_pages#home"
  # get "static_pages/home"
  # get "static_pages/help"
