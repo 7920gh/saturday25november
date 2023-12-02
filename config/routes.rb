@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   # root "posts#index"
   #----------------------------------------------------------
   #root "application#hello"
- #root "welcome#index"
+ root "welcome#index"
   
   
   
@@ -19,7 +19,7 @@ Rails.application.routes.draw do
  # get '/users', to: 'users#index', as: 'users'
 #render 'app/views/index'
   
-  root 'app/views/users#index.erb'
+  #root 'app/views/users#index.erb'
   #root 'users#index.erb'
 #  root "static_pages#home"
  # get "static_pages/home"
