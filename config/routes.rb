@@ -13,10 +13,10 @@ Rails.application.routes.draw do
   
   
 # root "welcome#index"   // this one works
-  root "users#index"
+ # root "users#index"     //does not work
   
   
-  
+  get "users/index"
 	
  # get '/users', to: 'users#index', as: 'users'
 #render 'app/views/index'
