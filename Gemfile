@@ -75,7 +75,8 @@ end
 
 group :production do
   #gem "pg", "~> 1.5.4 x64-mingw-ucrt"
-  gem "pg"
+ # gem "pg"
+ gem "postgresql"
 end
 
 #pg (1.5.4 x64-mingw-ucrt)
