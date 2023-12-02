@@ -9,8 +9,8 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
   #----------------------------------------------------------
-  root "application#hello"
-  root "users#index"   # //does not work
+ # root "application#hello"
+ # root "users#index"   # //does not work
   root "welcome#index"  # // this one works
 
 
