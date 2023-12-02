@@ -10,8 +10,10 @@ Rails.application.routes.draw do
   # root "posts#index"
   #----------------------------------------------------------
   #root "application#hello"
- root "welcome#index"
   
+  
+# root "welcome#index"   // this one works
+  root "users#index"
   
   
   
