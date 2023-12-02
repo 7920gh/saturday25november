@@ -76,11 +76,11 @@ end
 group :production do
   #gem "pg", "~> 1.5.4 x64-mingw-ucrt"
  # gem "pg"
- gem "postgresql"
+ gem "pg", "1.5.4-x64-mingw-ucrt"
 end
 
 #pg (1.5.4 x64-mingw-ucrt)
 #postgresql (1.0.0)
-
+#pg (1.5.4-x64-mingw-ucrt)
 
 
