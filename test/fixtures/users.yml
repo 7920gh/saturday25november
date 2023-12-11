@@ -4,12 +4,10 @@ one:
   name: MyString
   email: MyString
   phone: 1
-  location: MyString
-  trade: MyString
+  note: MyText
 
 two:
   name: MyString
   email: MyString
   phone: 1
-  location: MyString
-  trade: MyString
+  note: MyText
