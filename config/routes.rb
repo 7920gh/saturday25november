@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   #----------------------------------------------------------
  # root "application#hello"
   root "users#index"   # //does not work
-  #root "welcome#index"  # // this one works
+  root "welcome#index"  # // this one works
 
 #GET "/users"
 
