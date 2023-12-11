@@ -151,8 +151,6 @@ GEM
       racc (~> 1.4)
     pg (1.5.4)
     pg (1.5.4-x64-mingw-ucrt)
-    postgresql (1.0.0)
-      pg
     psych (5.1.1.1)
       stringio
     public_suffix (5.0.4)
@@ -262,7 +260,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
-  postgresql (= 1.0.0)
+  pg
   puma (>= 5.0)
   rails (~> 7.1.2)
   selenium-webdriver
@@ -275,7 +273,7 @@ DEPENDENCIES
   webdrivers
 
 RUBY VERSION
-   ruby 3.2.2p53
+   ruby 3.2.0p0
 
 BUNDLED WITH
    2.4.22
