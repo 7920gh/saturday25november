@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
  # end
 
 
-  
+  render html: "i am inside application controller"
   
   
   #def hellorender html: "hellllo, world"#get '/hola/?'
